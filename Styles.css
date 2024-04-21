@@ -29,17 +29,41 @@ p {
     height: auto;
 }
 
-.container {
-	width: 90%;
+.FirstYearDBGA1 {
+    display: block;
     margin: 0 auto;
-    text-align: center;
+    width: 90%;
+}
+
+.FirstYearDBGA1 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.FirstYearDBGA2 {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.FirstYearDBGA2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container {
+	display: block;
+    margin: 0 auto;
+    width: 90%;
 }
 
 .container img {
     width: 100%;
     height: auto;
     display: block;
-  }
+}
 
 table {
 	width: 100%;

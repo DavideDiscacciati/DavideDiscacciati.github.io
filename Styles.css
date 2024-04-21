@@ -30,8 +30,15 @@ p {
 }
 
 .container {
-	width: 40%;
+	width: 80%;
+    display: flex;
+    justify-content: space-between;
 	margin: 0 auto;
+}
+
+.container img {
+	width: 25%;
+  height: auto;
 }
 
 table {

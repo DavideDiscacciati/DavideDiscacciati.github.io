@@ -33,6 +33,12 @@ p {
 	width: 100%;
 }
 
+.container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
 .image-container {
     width: 100%;
   }
@@ -45,7 +51,19 @@ p {
 
 table {
 	width: 100%;
-	border-collapse: collapse;
+}
+
+table img {
+    width: 100%;
+    height: auto;
+}
+
+table td:first-child{
+    width: 25%;
+}
+
+table td:nth-child(2){
+    width: 75%;
 }
 
 td {

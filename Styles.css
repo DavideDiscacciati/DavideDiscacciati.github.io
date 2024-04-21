@@ -30,14 +30,13 @@ p {
 }
 
 .container {
-	width: 80%;
-	margin: 0 auto;
+	width: 100%;
 }
 
 .image-container {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+    height: auto;
+    display: block;
   }
   
   .image-container img {

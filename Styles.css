@@ -31,15 +31,19 @@ p {
 
 .container {
 	width: 80%;
-    display: flex;
-    justify-content: space-between;
 	margin: 0 auto;
 }
 
-.container img {
-	width: 25%;
-  height: auto;
-}
+.image-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .image-container img {
+    width: 25%;
+    height: auto;
+  }
 
 table {
 	width: 100%;
